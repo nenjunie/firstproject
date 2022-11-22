@@ -1,0 +1,63 @@
+/* Миний кодын эхлэл хакатоны дасгал хуудаст зориулсан stylesheet */
+/* HTML elementiig BODY geh nertei elementiig zohiomjloh */
+body {
+ background-color: #784f29; /*devsger ongo*/ 
+ color: rgb(5, 25, 49); /*bichgiin ongo*/
+ font-family: Verdana, Arial, Arial, Helvetica, sans-serif;
+ font-size: small; /* usgiin hemjee*/
+ margin: 0px; /* hureeg ni duurgej hrgduulna*/
+}
+/*id="wrapper" tai div iig zohiomjloh*/
+div#wrapper {
+ background-color: blanchedalmond ; color: rgb(7, 70, 70);
+}
+    /*id="headsection"tai div iig zohiomjloh*/
+div#headsection {
+    background-color: #f3c600; color: black;
+}
+/*id="logo" tai zurgiig zhiomjloh*/
+div#headsection {
+    background-color: white; color: black;
+} 
+/* h1 bolon h2 geh nertei elementiig zohiomjloh*/
+h1 { font-size: 200% ;}
+h2 {font-size: 150% ;}
+/*address gh nertei HTML elementiig zohiomjloh*/
+address {
+ border-top: 1px solid #784f29;
+    text-align: center; /*tovd bairluulah*/
+    font-size: 80%; /*uldsenees arai jijig*/
+    font-style: italic; /*engiin bsh naluu bochg*/ 
+
+    letter-spacing: 2px; /*useg hoorondiin zai*/
+    line-height: 1.5; /*mor hoorondiin zai, negj ogoogui*/
+}
+/*a geh nertei elementiig zohiomjloh */
+a {
+    text-decoration: none;
+} /*dooguur zuraasiig ustgah .ugnii.*/
+
+a:link {
+    color: #d90000;
+  }
+a:visited {
+    color: #c66666;
+} 
+#navi01 a{
+    color: #c66666;
+}
+a:hover,
+a:focus{
+    border-bottom: 1px solid #d90000;
+}
+a:active {background-color: #d90000;
+    color:white; 
+}
+div#textsection a{
+    border-bottom: 1px dotted #c00000;
+}
+div#headsection p span {                                                               
+    color: #d90000; /*bichgiin ongo*/
+} 
+
+
